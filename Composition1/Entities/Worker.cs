@@ -44,7 +44,7 @@ namespace Composition1.Entities
                 if (contract.Date.Year == year && contract.Date.Month == month)
                 {
                     sum += contract.TotalValue();
-            }
+                }
             }
             return sum;
         }
